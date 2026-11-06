@@ -1,0 +1,554 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "mw3tmcu90h13oq",
+      "name": "Idiomas",
+      "color": 0
+    },
+    {
+      "id": "mw3tmcu9oxb5yk",
+      "name": "Universidad",
+      "color": 1
+    },
+    {
+      "id": "mw3tmcu9pel6by",
+      "name": "Recreación",
+      "color": 2
+    },
+    {
+      "id": "mw3tmcu9pfu81s",
+      "name": "Estudio",
+      "color": 3
+    },
+    {
+      "id": "mw3w52pzrfwtfg",
+      "name": "Trabajo",
+      "color": 4
+    }
+  ],
+  "areas": [
+    {
+      "id": "mw3tmcu99m2qqe",
+      "name": "Portugués",
+      "categoryId": "mw3tmcu90h13oq",
+      "createdAt": 1793899795329
+    },
+    {
+      "id": "mw3tmcu9w0eusc",
+      "name": "Alemán",
+      "categoryId": "mw3tmcu90h13oq",
+      "createdAt": 1793899795329
+    },
+    {
+      "id": "mw3tmcu9b1gbgj",
+      "name": "Arquitectura de software",
+      "categoryId": "mw3tmcu9oxb5yk",
+      "createdAt": 1793899795329
+    },
+    {
+      "id": "mw3tmcu9t8ci0t",
+      "name": "Arquitectura de infraestructura",
+      "categoryId": "mw3tmcu9oxb5yk",
+      "createdAt": 1793899795329
+    },
+    {
+      "id": "mw3tmcu9xm22ws",
+      "name": "Piano",
+      "categoryId": "mw3tmcu9pel6by",
+      "createdAt": 1793899795329
+    },
+    {
+      "id": "mw3tmcu9m8bzkw",
+      "name": "Proyecto personal",
+      "categoryId": "mw3tmcu9pfu81s",
+      "createdAt": 1793899795329
+    },
+    {
+      "id": "mw3tpyktevgnsr",
+      "name": "Italiano",
+      "categoryId": "mw3tmcu90h13oq",
+      "createdAt": 1793899963469
+    }
+  ],
+  "tasks": [
+    {
+      "id": "mw3tsull73thjg",
+      "title": "Completar \"A Tour of Go\"",
+      "areaId": "mw3tmcu9m8bzkw",
+      "priority": "alta",
+      "dueDate": "2026-11-07",
+      "description": "",
+      "done": false,
+      "createdAt": 1793900098281,
+      "completedAt": null
+    },
+    {
+      "id": "mw3vylfe8j966w",
+      "title": "Ordenar los recursos",
+      "areaId": "mw3tmcu99m2qqe",
+      "priority": "media",
+      "dueDate": "2026-11-05",
+      "description": "Organizar una carpeta con los libros de portugues. Buscar recursos como postcast  y demas",
+      "done": false,
+      "createdAt": 1793903725562,
+      "completedAt": null
+    },
+    {
+      "id": "mw3vz0xbledrkz",
+      "title": "Repasar los primeros 3 temas del libro",
+      "areaId": "mw3tmcu99m2qqe",
+      "priority": "media",
+      "dueDate": "2026-11-06",
+      "description": "",
+      "done": false,
+      "createdAt": 1793903745647,
+      "completedAt": null
+    },
+    {
+      "id": "mw3vzknirc3tfn",
+      "title": "Hacer la lectura asignada",
+      "areaId": "mw3tmcu9b1gbgj",
+      "priority": "media",
+      "dueDate": "2026-11-05",
+      "description": "",
+      "done": false,
+      "createdAt": 1793903771214,
+      "completedAt": null
+    },
+    {
+      "id": "mw3vzx0nmc4q1n",
+      "title": "Repasar las diapositivas de la clase de hoy",
+      "areaId": "mw3tmcu9b1gbgj",
+      "priority": "media",
+      "dueDate": "2026-11-05",
+      "description": "",
+      "done": false,
+      "createdAt": 1793903787239,
+      "completedAt": null
+    },
+    {
+      "id": "mw3w09w45ggz56",
+      "title": "Revisar el laboratorio 5",
+      "areaId": "mw3tmcu9b1gbgj",
+      "priority": "media",
+      "dueDate": "2026-11-06",
+      "description": "",
+      "done": false,
+      "createdAt": 1793903803924,
+      "completedAt": null
+    },
+    {
+      "id": "mw3w0x68nuib05",
+      "title": "Investigar recursos y ordenarlos en una carpeta",
+      "areaId": "mw3tmcu9xm22ws",
+      "priority": "media",
+      "dueDate": "2026-11-06",
+      "description": "",
+      "done": false,
+      "createdAt": 1793903834096,
+      "completedAt": null
+    },
+    {
+      "id": "mw3w2yojsfzi5f",
+      "title": "Escribir docs/vision.md con el dominio y las cinco invariantes",
+      "areaId": "mw3tmcu9m8bzkw",
+      "priority": "media",
+      "dueDate": "2026-11-06",
+      "description": "",
+      "done": false,
+      "createdAt": 1793903929363,
+      "completedAt": null
+    },
+    {
+      "id": "mw3w3idbl678fg",
+      "title": "OSTEP, introducción y capítulo sobre la abstracción de proceso",
+      "areaId": "mw3tmcu9m8bzkw",
+      "priority": "media",
+      "dueDate": "2026-11-06",
+      "description": "",
+      "done": false,
+      "createdAt": 1793903954879,
+      "completedAt": null
+    },
+    {
+      "id": "mw3w3t95q8zb58",
+      "title": "MIT Missing Semester, clases de shell y shell tools.",
+      "areaId": "mw3tmcu9m8bzkw",
+      "priority": "media",
+      "dueDate": "2026-11-06",
+      "description": "",
+      "done": false,
+      "createdAt": 1793903968985,
+      "completedAt": null
+    },
+    {
+      "id": "mw3w46r3lbnzyf",
+      "title": "complejidad Big O (Grokking Algorithms, caps. 1-2)",
+      "areaId": "mw3tmcu9m8bzkw",
+      "priority": "media",
+      "dueDate": "2026-11-06",
+      "description": "",
+      "done": false,
+      "createdAt": 1793903986479,
+      "completedAt": null
+    },
+    {
+      "id": "mw3w4hr6esxbyq",
+      "title": "1 problema de arrays/hashing.",
+      "areaId": "mw3tmcu9m8bzkw",
+      "priority": "media",
+      "dueDate": "2026-11-06",
+      "description": "",
+      "done": false,
+      "createdAt": 1793904000738,
+      "completedAt": null
+    }
+  ],
+  "sessions": [
+    {
+      "id": "mw3yvywgucnx6o",
+      "areaId": "mw3tmcu9m8bzkw",
+      "taskId": "mw3tsull73thjg",
+      "start": 1793907140647,
+      "end": 1793908641904,
+      "note": ""
+    },
+    {
+      "id": "mw3zc3qv6sle8x",
+      "areaId": "mw3tmcu9m8bzkw",
+      "taskId": "mw3tsull73thjg",
+      "start": 1793908823396,
+      "end": 1793909394679,
+      "note": ""
+    }
+  ],
+  "goals": [
+    {
+      "id": "mw3tmcu9ddq0j1",
+      "scope": "total",
+      "targetId": null,
+      "period": "day",
+      "minutes": 120
+    },
+    {
+      "id": "mw3tmcu9xswsub",
+      "scope": "category",
+      "targetId": "mw3tmcu90h13oq",
+      "period": "week",
+      "minutes": 300
+    }
+  ],
+  "rewardRules": [
+    {
+      "id": "mw3woz08ypv7vs",
+      "for": "recreación",
+      "trigger": "hours",
+      "scope": "categories",
+      "targetId": null,
+      "hours": 5,
+      "priority": "any",
+      "goalId": null,
+      "streakDays": 7,
+      "reward": {
+        "kind": "money",
+        "amount": 7500
+      },
+      "active": true,
+      "since": 1793854800000,
+      "createdAt": 1793904956216,
+      "targetIds": [
+        "mw3tmcu90h13oq",
+        "mw3tmcu9oxb5yk",
+        "mw3tmcu9pfu81s",
+        "mw3w52pzrfwtfg"
+      ]
+    },
+    {
+      "id": "mw3woz08lvvxpm",
+      "for": "",
+      "trigger": "hours",
+      "scope": "categories",
+      "targetId": null,
+      "hours": 10,
+      "priority": "any",
+      "goalId": null,
+      "streakDays": 7,
+      "reward": {
+        "kind": "permit",
+        "quantity": 2,
+        "unit": "h",
+        "label": "videojuegos"
+      },
+      "active": true,
+      "since": 1793854800000,
+      "createdAt": 1793904956216,
+      "targetIds": [
+        "mw3tmcu90h13oq",
+        "mw3tmcu9oxb5yk",
+        "mw3tmcu9pfu81s",
+        "mw3w52pzrfwtfg"
+      ]
+    },
+    {
+      "scope": "total",
+      "targetId": null,
+      "targetIds": null,
+      "hours": 10,
+      "priority": "any",
+      "goalId": "any-week",
+      "streakDays": 7,
+      "active": true,
+      "since": 1793854800000,
+      "createdAt": 1793905540269,
+      "id": "mw3x1hnx1tvwwn",
+      "trigger": "goal",
+      "for": "recreación",
+      "reward": {
+        "kind": "money",
+        "amount": 5000
+      }
+    },
+    {
+      "scope": "total",
+      "targetId": null,
+      "targetIds": null,
+      "hours": 10,
+      "priority": "any",
+      "goalId": null,
+      "streakDays": 7,
+      "active": true,
+      "since": 1793854800000,
+      "createdAt": 1793905540269,
+      "id": "mw3x1hnxblfl6x",
+      "trigger": "streak",
+      "for": "",
+      "reward": {
+        "kind": "permit",
+        "quantity": 1,
+        "unit": "h",
+        "label": "videojuegos"
+      }
+    },
+    {
+      "scope": "total",
+      "targetId": null,
+      "targetIds": null,
+      "hours": 10,
+      "priority": "any",
+      "goalId": null,
+      "active": true,
+      "since": 1793854800000,
+      "createdAt": 1793906860870,
+      "id": "mw3xtsnaz8r4l5",
+      "trigger": "habits",
+      "habitMode": "approved",
+      "streakDays": 7,
+      "for": "recreación",
+      "reward": {
+        "kind": "money",
+        "amount": 2000
+      }
+    },
+    {
+      "scope": "total",
+      "targetId": null,
+      "targetIds": null,
+      "hours": 10,
+      "priority": "any",
+      "goalId": null,
+      "active": true,
+      "since": 1793854800000,
+      "createdAt": 1793906860870,
+      "id": "mw3xtsnazoukrb",
+      "trigger": "habits",
+      "habitMode": "streak",
+      "streakDays": 7,
+      "for": "",
+      "reward": {
+        "kind": "permit",
+        "quantity": 1,
+        "unit": "h",
+        "label": "videojuegos"
+      }
+    }
+  ],
+  "rewardEvents": [],
+  "habits": [
+    {
+      "id": "mw3xtsna6j0fvc",
+      "name": "Levantarse a las 6",
+      "alias": "",
+      "note": "",
+      "moment": "manana",
+      "schedule": {
+        "type": "daily"
+      },
+      "createdAt": 1793854800000
+    },
+    {
+      "id": "mw3xtsnas65401",
+      "name": "Bañarme",
+      "alias": "",
+      "note": "",
+      "moment": "manana",
+      "schedule": {
+        "type": "daily"
+      },
+      "createdAt": 1793854800000
+    },
+    {
+      "id": "mw3xtsnad5qy6u",
+      "name": "Desayuno saludable (8 am)",
+      "alias": "",
+      "note": "",
+      "moment": "comidas",
+      "schedule": {
+        "type": "daily"
+      },
+      "createdAt": 1793854800000
+    },
+    {
+      "id": "mw3xtsnal2q17i",
+      "name": "Almuerzo saludable (1 pm)",
+      "alias": "",
+      "note": "",
+      "moment": "comidas",
+      "schedule": {
+        "type": "daily"
+      },
+      "createdAt": 1793854800000
+    },
+    {
+      "id": "mw3xtsnao8jh76",
+      "name": "Cena saludable (6 pm)",
+      "alias": "",
+      "note": "",
+      "moment": "comidas",
+      "schedule": {
+        "type": "daily"
+      },
+      "createdAt": 1793854800000
+    },
+    {
+      "id": "mw3xtsna5edvlp",
+      "name": "No carbs refinados",
+      "alias": "",
+      "note": "",
+      "moment": "comidas",
+      "schedule": {
+        "type": "daily"
+      },
+      "createdAt": 1793854800000
+    },
+    {
+      "id": "mw3xtsnae767ie",
+      "name": "Ir a clase",
+      "alias": "",
+      "note": "",
+      "moment": "dia",
+      "schedule": {
+        "type": "days",
+        "days": [
+          1,
+          3
+        ]
+      },
+      "createdAt": 1793854800000
+    },
+    {
+      "id": "mw3xtsnatlj9bn",
+      "name": "Ir a fútbol",
+      "alias": "",
+      "note": "",
+      "moment": "dia",
+      "schedule": {
+        "type": "days",
+        "days": [
+          0,
+          4
+        ]
+      },
+      "createdAt": 1793854800000
+    },
+    {
+      "id": "mw3xtsna0aaj4j",
+      "name": "Gimnasio",
+      "alias": "",
+      "note": "",
+      "moment": "dia",
+      "schedule": {
+        "type": "weekly",
+        "times": 4
+      },
+      "createdAt": 1793854800000
+    },
+    {
+      "id": "mw3xtsna6dsvtu",
+      "name": "2,5 L de agua",
+      "alias": "",
+      "note": "",
+      "moment": "dia",
+      "schedule": {
+        "type": "daily"
+      },
+      "createdAt": 1793854800000
+    },
+    {
+      "id": "mw3xtsnai7w86p",
+      "name": "Máx. 30 min de redes sociales",
+      "alias": "",
+      "note": "",
+      "moment": "dia",
+      "schedule": {
+        "type": "daily"
+      },
+      "createdAt": 1793854800000
+    },
+    {
+      "id": "mw3xtsnaq7jijg",
+      "name": "Dormir a las 10",
+      "alias": "",
+      "note": "",
+      "moment": "noche",
+      "schedule": {
+        "type": "daily"
+      },
+      "createdAt": 1793854800000
+    },
+    {
+      "id": "mw3xtsnajy672o",
+      "name": "No celular en cama",
+      "alias": "",
+      "note": "",
+      "moment": "noche",
+      "schedule": {
+        "type": "daily"
+      },
+      "createdAt": 1793854800000
+    },
+    {
+      "id": "mw3xtsna0ln6fx",
+      "name": "No pornografía",
+      "alias": "No P",
+      "note": "",
+      "moment": "noche",
+      "schedule": {
+        "type": "daily"
+      },
+      "createdAt": 1793854800000
+    }
+  ],
+  "habitLog": {},
+  "activeTimer": null,
+  "settings": {
+    "streakMinMinutes": 15,
+    "theme": "auto",
+    "rewardMonthlyCap": 300000,
+    "habitThreshold": 70,
+    "rewardsSeeded": true,
+    "rewardsPresetV2": true,
+    "habitsSeeded": true
+  },
+  "updatedAt": 1793925431212
+}

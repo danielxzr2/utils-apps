@@ -1,0 +1,13 @@
+{
+  "name": "bitacora",
+  "version": "0.1.0",
+  "description": "Reloj de estudio por categorías, áreas y tareas, con metas y progreso.",
+  "private": true,
+  "scripts": {
+    "start": "node server.js --open",
+    "serve": "node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

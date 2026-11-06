@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bitácora</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='17' r='12' fill='%232a78d6'/%3E%3Cpath d='M16 10v7l5 3' stroke='white' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#reloj">
+      <svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true"><circle cx="16" cy="17" r="12" fill="var(--accent)"/><path d="M16 10v7l5 3" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
+      Bitácora
+    </a>
+    <nav id="nav" aria-label="Secciones">
+      <a href="#reloj" data-route="reloj">Reloj</a>
+      <a href="#habitos" data-route="habitos">Hábitos</a>
+      <a href="#areas" data-route="areas">Áreas y tareas</a>
+      <a href="#reportes" data-route="reportes">Reportes</a>
+      <a href="#progreso" data-route="progreso">Progreso</a>
+      <a href="#recompensas" data-route="recompensas">Recompensas</a>
+    </nav>
+    <div class="topbar-right">
+      <div id="mini-timer"></div>
+      <button class="icon-btn" data-action="theme" aria-label="Cambiar tema claro/oscuro" data-tip="Tema claro / oscuro"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg></button>
+    </div>
+  </header>
+  <div id="banner"></div>
+  <main id="view" class="container"></main>
+
+  <div id="modal-root"></div>
+  <div id="toast-root" aria-live="polite"></div>
+  <div id="tooltip" class="tooltip" hidden></div>
+
+  <!-- Scripts clásicos (sin módulos) para que también funcione abriendo el archivo directamente. -->
+  <script src="js/util.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/forms.js"></script>
+  <script src="js/timer.js"></script>
+  <script src="js/habits.js"></script>
+  <script src="js/rewards.js"></script>
+  <script src="js/migrations.js"></script>
+  <script src="js/widgets.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/view-timer.js"></script>
+  <script src="js/view-areas.js"></script>
+  <script src="js/view-reports.js"></script>
+  <script src="js/view-progress.js"></script>
+  <script src="js/view-rewards.js"></script>
+  <script src="js/view-habits.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

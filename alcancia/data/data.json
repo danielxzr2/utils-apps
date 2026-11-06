@@ -1,0 +1,583 @@
+{
+  "version": 1,
+  "accounts": [
+    {
+      "id": "mw3vc20g53bel7",
+      "name": "Efectivo",
+      "type": "efectivo",
+      "initial": 0,
+      "createdAt": 1793902673968,
+      "archived": false
+    },
+    {
+      "id": "mw3vc20g79bl1l",
+      "name": "Bancolombia",
+      "type": "banco",
+      "initial": 931000,
+      "createdAt": 1793902673968,
+      "archived": false
+    },
+    {
+      "id": "mw3vc20g78kt3t",
+      "name": "Nequi",
+      "type": "billetera",
+      "initial": 18600,
+      "createdAt": 1793902673968,
+      "archived": false
+    },
+    {
+      "id": "mw3vc20gt8jist",
+      "name": "Tarjeta de crédito Rappi",
+      "type": "credito",
+      "initial": -934000,
+      "createdAt": 1793902673968,
+      "archived": false,
+      "limit": 2100000,
+      "cutDay": 20,
+      "payDay": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": "mw3vc20gnvov7v",
+      "name": "Vivienda",
+      "kind": "gasto",
+      "parentId": null,
+      "icon": "🏠",
+      "color": 0,
+      "budget": {
+        "mode": "pct",
+        "value": 25
+      }
+    },
+    {
+      "id": "mw3vc20g99v6aw",
+      "name": "Arriendo",
+      "kind": "gasto",
+      "parentId": "mw3vc20gnvov7v",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gmcww2y",
+      "name": "Servicios públicos",
+      "kind": "gasto",
+      "parentId": "mw3vc20gnvov7v",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gyb7tz6",
+      "name": "Internet y celular",
+      "kind": "gasto",
+      "parentId": "mw3vc20gnvov7v",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gzb4koz",
+      "name": "Hogar",
+      "kind": "gasto",
+      "parentId": "mw3vc20gnvov7v",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20g5iygjz",
+      "name": "Comida",
+      "kind": "gasto",
+      "parentId": null,
+      "icon": "🍽️",
+      "color": 1,
+      "budget": {
+        "mode": "pct",
+        "value": 15
+      }
+    },
+    {
+      "id": "mw3vc20gx7xx24",
+      "name": "Mercado",
+      "kind": "gasto",
+      "parentId": "mw3vc20g5iygjz",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20g871c9a",
+      "name": "Restaurantes",
+      "kind": "gasto",
+      "parentId": "mw3vc20g5iygjz",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20g7bbx2s",
+      "name": "Domicilios",
+      "kind": "gasto",
+      "parentId": "mw3vc20g5iygjz",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gy5ajem",
+      "name": "Café y snacks",
+      "kind": "gasto",
+      "parentId": "mw3vc20g5iygjz",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gknqwvw",
+      "name": "Transporte",
+      "kind": "gasto",
+      "parentId": null,
+      "icon": "🚌",
+      "color": 2,
+      "budget": {
+        "mode": "pct",
+        "value": 8
+      }
+    },
+    {
+      "id": "mw3vc20g6n1ohx",
+      "name": "Transporte público",
+      "kind": "gasto",
+      "parentId": "mw3vc20gknqwvw",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20g9btwmt",
+      "name": "Taxi / app",
+      "kind": "gasto",
+      "parentId": "mw3vc20gknqwvw",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20g7eu97b",
+      "name": "Gasolina y parqueadero",
+      "kind": "gasto",
+      "parentId": "mw3vc20gknqwvw",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gc77q2h",
+      "name": "Salud",
+      "kind": "gasto",
+      "parentId": null,
+      "icon": "🩺",
+      "color": 7,
+      "budget": {
+        "mode": "pct",
+        "value": 4
+      }
+    },
+    {
+      "id": "mw3vc20gexeejj",
+      "name": "Medicamentos",
+      "kind": "gasto",
+      "parentId": "mw3vc20gc77q2h",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gsdeszn",
+      "name": "Citas médicas",
+      "kind": "gasto",
+      "parentId": "mw3vc20gc77q2h",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gf16fs6",
+      "name": "Deporte",
+      "kind": "gasto",
+      "parentId": "mw3vc20gc77q2h",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gim0to1",
+      "name": "Educación",
+      "kind": "gasto",
+      "parentId": null,
+      "icon": "🎓",
+      "color": 6,
+      "budget": {
+        "mode": "pct",
+        "value": 5
+      }
+    },
+    {
+      "id": "mw3vc20gd4rjeu",
+      "name": "Universidad",
+      "kind": "gasto",
+      "parentId": "mw3vc20gim0to1",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gf9itl6",
+      "name": "Cursos",
+      "kind": "gasto",
+      "parentId": "mw3vc20gim0to1",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20guqwm41",
+      "name": "Libros",
+      "kind": "gasto",
+      "parentId": "mw3vc20gim0to1",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gqhg75k",
+      "name": "Recreación",
+      "kind": "gasto",
+      "parentId": null,
+      "icon": "🎉",
+      "color": 4,
+      "budget": {
+        "mode": "pct",
+        "value": 12
+      }
+    },
+    {
+      "id": "mw3vc20g9l4smi",
+      "name": "Salidas",
+      "kind": "gasto",
+      "parentId": "mw3vc20gqhg75k",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gmcq1p5",
+      "name": "Planes y viajes",
+      "kind": "gasto",
+      "parentId": "mw3vc20gqhg75k",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20g6qf37u",
+      "name": "Hobbies",
+      "kind": "gasto",
+      "parentId": "mw3vc20gqhg75k",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gmsqj2q",
+      "name": "Compras",
+      "kind": "gasto",
+      "parentId": null,
+      "icon": "🛍️",
+      "color": 3,
+      "budget": {
+        "mode": "pct",
+        "value": 6
+      }
+    },
+    {
+      "id": "mw3vc20gv9pnk3",
+      "name": "Ropa",
+      "kind": "gasto",
+      "parentId": "mw3vc20gmsqj2q",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20g522neo",
+      "name": "Tecnología",
+      "kind": "gasto",
+      "parentId": "mw3vc20gmsqj2q",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gg197h3",
+      "name": "Cuidado personal",
+      "kind": "gasto",
+      "parentId": "mw3vc20gmsqj2q",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20g4x9lrm",
+      "name": "Suscripciones",
+      "kind": "gasto",
+      "parentId": null,
+      "icon": "📺",
+      "color": 5,
+      "budget": {
+        "mode": "pct",
+        "value": 3
+      }
+    },
+    {
+      "id": "mw3vc20g1pw7na",
+      "name": "Streaming",
+      "kind": "gasto",
+      "parentId": "mw3vc20g4x9lrm",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gnkcg7o",
+      "name": "Apps y software",
+      "kind": "gasto",
+      "parentId": "mw3vc20g4x9lrm",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gi5fsim",
+      "name": "Financieros",
+      "kind": "gasto",
+      "parentId": null,
+      "icon": "🏦",
+      "color": null,
+      "budget": {
+        "mode": "pct",
+        "value": 2
+      }
+    },
+    {
+      "id": "mw3vc20g1b04r9",
+      "name": "Intereses",
+      "kind": "gasto",
+      "parentId": "mw3vc20gi5fsim",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gvhhxpp",
+      "name": "Cuota de manejo",
+      "kind": "gasto",
+      "parentId": "mw3vc20gi5fsim",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20g3b27ie",
+      "name": "4×1000",
+      "kind": "gasto",
+      "parentId": "mw3vc20gi5fsim",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gwv10iy",
+      "name": "Otros",
+      "kind": "gasto",
+      "parentId": null,
+      "icon": "📦",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gpak0ri",
+      "name": "Regalos",
+      "kind": "gasto",
+      "parentId": "mw3vc20gwv10iy",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gyj6hl7",
+      "name": "Imprevistos",
+      "kind": "gasto",
+      "parentId": "mw3vc20gwv10iy",
+      "icon": "",
+      "color": null,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20g9fn7tt",
+      "name": "Salario",
+      "kind": "ingreso",
+      "parentId": null,
+      "icon": "💼",
+      "color": 2,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gac5rvx",
+      "name": "Ingresos semanales",
+      "kind": "ingreso",
+      "parentId": null,
+      "icon": "💵",
+      "color": 0,
+      "budget": null
+    },
+    {
+      "id": "mw3vc20gtom44c",
+      "name": "Otros ingresos",
+      "kind": "ingreso",
+      "parentId": null,
+      "icon": "✨",
+      "color": 3,
+      "budget": null
+    }
+  ],
+  "movements": [
+    {
+      "id": "mw3vixayzaenli",
+      "type": "ingreso",
+      "amount": 2000000,
+      "date": "2026-11-28",
+      "note": "",
+      "accountId": "mw3vc20g79bl1l",
+      "toAccountId": null,
+      "categoryId": "mw3vc20g9fn7tt",
+      "goalId": null,
+      "recurringId": null,
+      "createdAt": 1793902994458
+    },
+    {
+      "id": "mw3vjh59mldwb3",
+      "type": "ingreso",
+      "amount": 1000000,
+      "date": "2026-11-25",
+      "note": "",
+      "accountId": "mw3vc20g78kt3t",
+      "toAccountId": null,
+      "categoryId": "mw3vc20g9fn7tt",
+      "goalId": null,
+      "recurringId": null,
+      "createdAt": 1793903020173
+    },
+    {
+      "id": "mw3vkjppogs6fx",
+      "type": "ajuste",
+      "amount": -2000000,
+      "date": "2026-11-05",
+      "accountId": "mw3vc20g79bl1l",
+      "toAccountId": null,
+      "categoryId": null,
+      "goalId": null,
+      "recurringId": null,
+      "note": "Ajuste de saldo",
+      "createdAt": 1793903070157
+    },
+    {
+      "id": "mw3vkqyhquaqdu",
+      "type": "ajuste",
+      "amount": -1000000,
+      "date": "2026-11-05",
+      "accountId": "mw3vc20g78kt3t",
+      "toAccountId": null,
+      "categoryId": null,
+      "goalId": null,
+      "recurringId": null,
+      "note": "Ajuste de saldo",
+      "createdAt": 1793903079545
+    },
+    {
+      "id": "mw3vrje3mw4lhl",
+      "type": "gasto",
+      "amount": 140000,
+      "date": "2026-11-04",
+      "note": "Servicio de Luz",
+      "accountId": "mw3vc20g78kt3t",
+      "toAccountId": null,
+      "categoryId": "mw3vc20gmcww2y",
+      "goalId": null,
+      "recurringId": "mw3vqeia3lffor",
+      "createdAt": 1793903396331
+    },
+    {
+      "id": "mw3vumq4vkex1m",
+      "type": "ingreso",
+      "amount": 140000,
+      "date": "2026-11-05",
+      "note": "",
+      "accountId": "mw3vc20g78kt3t",
+      "toAccountId": null,
+      "categoryId": "mw3vc20gac5rvx",
+      "goalId": null,
+      "recurringId": null,
+      "createdAt": 1793903540620
+    }
+  ],
+  "recurring": [
+    {
+      "id": "mw3voxwu7r3vbv",
+      "name": "Internet y Datos",
+      "amount": 115000,
+      "categoryId": "mw3vc20gyb7tz6",
+      "accountId": "mw3vc20g78kt3t",
+      "day": 28,
+      "active": true
+    },
+    {
+      "id": "mw3vqeia3lffor",
+      "name": "Servicio de Luz",
+      "amount": 140000,
+      "categoryId": "mw3vc20gmcww2y",
+      "accountId": "mw3vc20g78kt3t",
+      "day": 4,
+      "active": true
+    }
+  ],
+  "goals": [
+    {
+      "id": "mw3vtumttvg6ie",
+      "createdAt": 1793903504213,
+      "doneAt": null,
+      "name": "Fondo de emergencia",
+      "emoji": "🛟",
+      "kind": "emergencia",
+      "target": 1530000,
+      "deadline": "2026-12-31"
+    }
+  ],
+  "checkins": [],
+  "settings": {
+    "payDay": 30,
+    "expectedIncome": 3500000,
+    "savingsPct": 20,
+    "smallExpense": 20000,
+    "theme": "auto",
+    "setupDismissed": false,
+    "budgetReviewed": true,
+    "lastAccount": {
+      "ingreso": "mw3vc20g78kt3t",
+      "gasto": "mw3vc20g78kt3t"
+    }
+  },
+  "updatedAt": 1793905499050
+}

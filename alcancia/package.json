@@ -1,0 +1,13 @@
+{
+  "name": "alcancia",
+  "version": "0.1.0",
+  "description": "Finanzas personales: cuentas, gastos por categoría, presupuesto, metas de ahorro, deudas y gamificación.",
+  "private": true,
+  "scripts": {
+    "start": "node server.js --open",
+    "serve": "node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
